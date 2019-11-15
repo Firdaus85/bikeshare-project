@@ -14,7 +14,7 @@ MONTHS = ['january', 'february', 'march', 'april', 'may', 'june']
 DAYS = ['sunday', 'monday', 'tuesday', 'wednesday', \
         'thursday', 'friday', 'saturday' ]
 
-def get_filters():
+def get_inputs():
     """
     Asks user to specify a city, month, and day to analyze.
 
