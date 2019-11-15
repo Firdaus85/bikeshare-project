@@ -45,7 +45,7 @@ def get_filters():
     
 
 
-    # TO DO: get user input for month (all, january, february, ... , june)
+    # TO DO: get user input for month (i.e either all, january, february, ... , june)
     while True:
         month = input('All right! please it\'s time to provide us a month name''or just say \'all\' to apply no month filter. \n(e.g.all january, feburary, march, april, may, june) \n> '.format(MONTHS))
         if month in MONTHS:
