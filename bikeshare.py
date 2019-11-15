@@ -232,7 +232,7 @@ def user_stats(df):
     
 
             
-def display_data(df):
+def display_raw_data(df):
     """Displays raw bikeshare data."""
     row_length = df.shape[0]
 
