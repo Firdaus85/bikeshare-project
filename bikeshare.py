@@ -14,7 +14,7 @@ MONTHS = ['january', 'february', 'march', 'april', 'may', 'june']
 DAYS = ['sunday', 'monday', 'tuesday', 'wednesday', \
         'thursday', 'friday', 'saturday' ]
 
-def get_filters():
+def get_inputs():
     """
     Asks user to specify a city, month, and day to analyze.
 
@@ -232,7 +232,7 @@ def user_stats(df):
     
 
             
-def display_data(df):
+def display_raw_data(df):
     """Displays raw bikeshare data."""
     row_length = df.shape[0]
 
